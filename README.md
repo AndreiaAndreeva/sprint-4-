@@ -13,8 +13,7 @@ text-autocomplete/
 
 ├── models/                          # веса обученных моделей
 |
-├── solution.ipynb                   # ноутбук с решением на GPU
-├── solution-cpu.ipynb               # ноутбук с решением на CPU
+├── Анализ каллоража .ipynb                   # ноутбук с решением на GPU
 ├── requirements.txt                 # зависимости проекта при запуске на GPU
 ├── requirements-cpu.txt             # зависимости проекта при запуске на CPU
 └── requirements-dev.txt             # зависимости для разработки (линтер, сортировка импортов)  
