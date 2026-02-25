@@ -7,22 +7,10 @@
 ```
 text-autocomplete/
 ├── data/                            # Датасеты
-│   ├── tweets.txt                   # "сырой" скачанный датасет
-│   ├── dataset_processed.csv        # "очищенный" датасет
-│   ├── train.csv                    # тренировочная выборка
-│   ├── val.csv                      # валидационная выборка
-│   └── test.csv                     # тестовая выборка
-│
-├── src/                             # Весь код проекта
-│   ├── data_utils.py                # Обработка датасета
-|   ├── next_token_dataset.py        # код с torch Dataset'ом 
-│   ├── lstm_model.py                # код lstm модели
-|   ├── eval_lstm.py                 # замер метрик lstm модели
-|   ├── lstm_train.py                # код обучения модели
-|   ├── eval_transformer_pipeline.py # код с запуском и замером качества трансформера
-|   ├── train_history.py             # История обучения (накопление метрик и вывод графиков)
-│   └── metric.py                    # Вычисление метрик ROUGE
-│
+
+   -  dish_filepath = 'data/dish.csv'
+   -  ingredients_filepath = 'data/ingredients.csv'
+
 ├── models/                          # веса обученных моделей
 |
 ├── solution.ipynb                   # ноутбук с решением на GPU
